@@ -10,7 +10,7 @@ import java.time.Duration;
 
 public class C01TekrarTesti {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver","src/driver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","src/driver/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
